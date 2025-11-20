@@ -1,6 +1,10 @@
 # sensor-pzem-004t-v4
 menggunkan firebase
 
+insert into public.device_commands (device_id, cmd_type)
+values ('ESP32-S3-Monitoring-01', 'reset_kwh');
+
+
 
 ### Tabel & policy monitoring_log:
 
